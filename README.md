@@ -5,14 +5,6 @@ Misuse + Anomaly = Hybrid Detection
 
 ## Project Description
 Attack detection through Misuse detection and Anomaly detection.
-
-## Collaborator
-| Name                 | Email                      |Period                      |
-| :------------------- | :------------------------- | :------------------------- |
-| Kim Ye-rin(김예린)    | k67065411@gmail.com        | 2020.03 ~ 2021.06          |
-| Kim joo-hyun(김주현)  | kjh99723@gmail.com         | 2020.03 ~ 2021.06          |
-| Yi So-eun(이소은)     | soun0715@gmail.com         | 2020.03 ~ 2021.06          |
-| Bae Seong-Jae(배성재  | bsj940528@gmail.com        | 2021.03 ~ 2021.06          |
  
 ## Experimental Environment
 ### Source
@@ -37,3 +29,10 @@ Hybrid Detection using Anomaly and Misuse Detection
 ## Award
 Hanbat University Big Data AI Center 2019 Student Big Data Analysis Competition Excellence Award
 
+## Collaborator
+| Name                 | Email                      |Period                      |
+| :------------------- | :------------------------- | :------------------------- |
+| Kim Ye-rin(김예린)    | k67065411@gmail.com        | 2020.03 ~ 2021.06          |
+| Kim joo-hyun(김주현)  | kjh99723@gmail.com         | 2020.03 ~ 2021.06          |
+| Yi So-eun(이소은)     | soun0715@gmail.com         | 2020.03 ~ 2021.06          |
+| Bae Seong-Jae(배성재  | bsj940528@gmail.com        | 2021.03 ~ 2021.06          |
