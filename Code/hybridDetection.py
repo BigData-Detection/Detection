@@ -22,6 +22,31 @@ from sklearn.metrics import plot_roc_curve
 #for pie chart
 import matplotlib.pyplot as plt
 
+from pymongo import MongoClient
+
+# client = MongoClient('localhost', 27017)
+client = MongoClient('mongodb://yerinisbest:dPfls@chlee1001.synology.me:27017')
+
+# Connect mongoDB(Anomaly)
+db = client.HybridDetection # database
+database = db.Anomaly  # collection
+dict_info_anomaly = database.find()  # find data from mongoDB
+
+# Connect mongoDB(Misuse)
+db = client.HybridDetection  # database
+database = db.Misuse  # collection
+dict_info_misuse = database.find()  # find data from mongoDB
+
+# change dictionary to dataframe(anomaly)
+df_info_anomaly = pd.DataFrame(dict_info_anomaly)
+print(df_info_anomaly)
+df_info_anomaly = df_info_anomaly.drop('_id', axis=1)
+
+# change dictionary to dataframe(misuse)
+df_info_misuse = pd.DataFrame(dict_info_misuse)
+print(df_info_misuse)
+df_info_misuse = df_info_misuse.drop('_id', axis=1)
+
 # for ROC curve
 from sklearn.metrics import roc_curve
 from sklearn.metrics import roc_auc_score
