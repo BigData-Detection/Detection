@@ -5,6 +5,9 @@ Misuse + Anomaly = Hybrid Detection
 
 ## Project Description
 Attack detection through Misuse detection and Anomaly detection.
+
+wiki page : https://github.com/BigData-Detection/Detection/wiki
+
  
 ## Experimental Environment
 ### Source
